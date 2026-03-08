@@ -3,19 +3,16 @@
 A clean, retro-futuristic Wofi theme designed to match the **Loonix Tunes** aesthetic. Featuring a deep navy background, cyan borders, and magenta selection highlights.
 
 ## Preview
+![Wofi Preview](https://raw.githubusercontent.com/citzeye/loonix-wofi/main/SS/loonix-vibe-wofi.png)
 
-![Wofi Preview](https://github.com/citzeye/loonix-wofi/SS/loonix-vibe-wofi.png)
 
 ## Features
-
 - **Visual Harmony**: 100% matched with Loonix Tunes color palette.
 - **Physical Files**: No more broken symlinks; styles are embedded directly.
 - **UWSM Ready**: Works perfectly with systemd-managed Wayland sessions.
 
 ## Installation
-
 ### Method 1: Automatic (Recommended)
-
 Clone the repository and run the provided install script. This script will check for dependencies and backup your existing config.
 
 ```bash
