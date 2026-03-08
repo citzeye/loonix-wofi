@@ -1,0 +1,60 @@
+/* --- LOONIX-WOFI (TUNES EDITION) STYLE --- */
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+window {
+  margin: 0px;
+  border: 2px solid #202b36; /* Background Border dari Loonix Tunes */
+  background-color: #1a232b; /* Background Utama Loonix Tunes */
+  border-radius: 12px;
+}
+
+#input {
+  margin: 15px;
+  border: none;
+  color: #4df9a4; /* Teal Accent dari Loonix Tunes */
+  background-color: #202b36; /* Warna Input Box */
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#inner-box {
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+#scroll {
+  margin: 5px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: #bbbbbb; /* Warna Teks Normal */
+}
+
+#entry:selected {
+  background-color: #2c3947; /* Highlighted Entry */
+  border-radius: 8px;
+}
+
+#text:selected {
+  color: #bf8eff; /* Purple Accent dari Loonix Tunes */
+  font-weight: bold;
+}
+
+#img {
+  margin-right: 10px;
+}
+/* --- END STYLE --- */

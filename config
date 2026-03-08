@@ -1,0 +1,17 @@
+## --- LOONIX-WOFI (TUNES EDITION) ---
+width=40%
+height=45%
+location=center
+show=drun
+prompt=Loonix Search |
+filter_rate=100
+allow_markup=true
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitivy=true
+allow_images=true
+image_size=32
+gtk_mode=true
+key_expand=Tab
+## --- END CONFIG ---
