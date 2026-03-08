@@ -1,56 +1,42 @@
-/* --- LOONIX-WOFI (TUNES EDITION) STYLE --- */
+/* --- LOONIX-WOFI VIBE TUNES STYLE --- */
 * {
   font-family: "JetBrainsMono Nerd Font";
-  font-size: 14px;
+  font-size: 13px;
 }
 
 window {
   margin: 0px;
-  border: 2px solid #202b36; /* Background Border dari Loonix Tunes */
-  background-color: #1a232b; /* Background Utama Loonix Tunes */
-  border-radius: 12px;
+  border: 2px solid #5de4ff; /* Border Cyan sesuai screenshot */
+  background-color: #1e1e2e; /* Warna gelap background */
+  border-radius: 8px;
 }
 
 #input {
-  margin: 15px;
+  margin: 10px;
   border: none;
-  color: #4df9a4; /* Teal Accent dari Loonix Tunes */
-  background-color: #202b36; /* Warna Input Box */
-  border-radius: 8px;
-  padding: 10px;
-  font-weight: bold;
+  color: #ffffff;
+  background-color: #313244;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 #inner-box {
   margin: 10px;
-  border: none;
   background-color: transparent;
-}
-
-#outer-box {
-  margin: 5px;
-  border: none;
-  background-color: transparent;
-}
-
-#scroll {
-  margin: 5px;
-  border: none;
 }
 
 #text {
   margin: 5px;
-  border: none;
-  color: #bbbbbb; /* Warna Teks Normal */
+  color: #5de4ff; /* Teks default warna cyan */
 }
 
 #entry:selected {
-  background-color: #2c3947; /* Highlighted Entry */
-  border-radius: 8px;
+  background-color: #ff79c6; /* Selection warna Pink/Magenta sesuai screenshot */
+  border-radius: 5px;
 }
 
 #text:selected {
-  color: #bf8eff; /* Purple Accent dari Loonix Tunes */
+  color: #1e1e2e; /* Teks jadi gelap pas kena background pink */
   font-weight: bold;
 }
 
